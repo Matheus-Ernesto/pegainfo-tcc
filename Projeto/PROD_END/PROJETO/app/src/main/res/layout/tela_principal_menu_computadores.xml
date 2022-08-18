@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_xml_menu_memoria_Ram"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/mem_ria_ram"
+        android:src="@drawable/icones_principal_menu_computadores_memoria_ram"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_menu_memoria"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_memoria_ram" />
+
+    <ImageView
+        android:id="@+id/img_xml_menu_processador"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/processador"
+        android:src="@drawable/icones_principal_menu_computadores_processador"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_menu_memoria_Ram"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_menu_placa_video"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_processador" />
+
+    <ImageView
+        android:id="@+id/img_xml_menu_memoria"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/mem_ria"
+        android:src="@drawable/icones_principal_menu_computadores_memorias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_menu_gabinetes"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_memorias" />
+
+    <ImageView
+        android:id="@+id/img_xml_menu_placa_mae"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/placa_m_e"
+        android:src="@drawable/icones_principal_menu_computadores_placa_mae"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_menu_gabinetes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_placa_mae" />
+
+    <ImageView
+        android:id="@+id/img_xml_menu_placa_video"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/placa_de_v_deo"
+        android:src="@drawable/icones_principal_menu_computadores_placa_video"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_menu_memoria"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_menu_placa_mae"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_placa_video" />
+
+    <ImageView
+        android:id="@+id/img_xml_menu_gabinetes"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/gabinetes"
+        android:src="@drawable/icones_principal_menu_computadores_gabinetes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icones_principal_menu_computadores_gabinetes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

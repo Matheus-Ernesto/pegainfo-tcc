@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imv_Banner_Home"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:contentDescription="@string/banner"
+        android:src="@drawable/icones_banner_home"
+        android:clickable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icones_banner_home"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/txv_Novos_Produtos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/novos_produtos"
+        android:textColor="@color/tema"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imv_Banner_Home" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrlv_Novos_Produtos"
+        android:layout_width="wrap_content"
+        android:layout_height="168dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Novos_Produtos">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scrlLay_Novos_Produtos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/txv_Mais_Populares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/mais_populares"
+        android:textColor="@color/tema"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrlv_Novos_Produtos" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrlv_Mais_Populares"
+        android:layout_width="wrap_content"
+        android:layout_height="168dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Mais_Populares">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scrlLay_Mais_Populares"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/scrlv_produtos_Montagem_celulares"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/scrlLay_produtos_Montagem_celulares"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txv_selecione_caracteristicas"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="211dp"
+            android:text="@string/selecione_as_caracter_sitcas_que_lhe_interessam"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:chipSpacing="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_selecione_caracteristicas">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_jogar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_jogos_realistas"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_tela_grande"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_tela_grande"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_bateria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_muita_bateria"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_fotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_tirar_fotos" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_whatsapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_whatsapp" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_idoso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_terceira_idade" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_instagram" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_celulares_duradouro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_durar_v_rios_anos" />
+
+        </com.google.android.material.chip.ChipGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

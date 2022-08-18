@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Pega Info</string>
+    <string name="login">Login</string>
+    <string name="continuar_sem_conta">Continuar sem conta</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="fa_a_login_na_sua_conta">Faça login na sua conta.</string>
+    <string name="n_o_tem_uma_conta_cadastre_se">Não tem uma conta? <br/> Cadastre-se</string>
+    <string name="email">Email:</string>
+    <string name="senha">Senha:</string>
+    <string name="entrar_na_conta_cadastrar">Entrar na conta/ Cadastrar</string>
+    <string name="exemplo_email_com">exemplo@email.com</string>
+    <string name="tela_home">Tela Home</string>
+    <string name="pega_info">Pega Info</string>
+    <string name="logo">Logo</string>
+    <string name="pacotes">Pacotes</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="computadores">Computadores</string>
+    <string name="notebooks">Notebooks</string>
+    <string name="celulares">Celulares</string>
+    <string name="tablets">Tablets</string>
+    <string name="gabinetes">Gabinetes</string>
+    <string name="placa_m_e">Placa Mãe</string>
+    <string name="mem_ria">Memória</string>
+    <string name="placa_de_v_deo">Placa de Vídeo</string>
+    <string name="mem_ria_ram">Memória Ram</string>
+    <string name="processador">Processador</string>
+    <string name="acess_rios">Acessórios</string>
+    <string name="sem_conex_o">Sem conexão</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="verifique_sua_internet">Verifique sua internet.</string>
+    <string name="banner">Banner</string>
+    <string name="novos_produtos">Novos produtos</string>
+    <string name="mais_populares">Mais populares</string>
+    <string name="pegainfo">PegaInfo</string>
+    <string name="pesquisa">Pesquisa</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="ano_2000">Ano:2000</string>
+    <string name="modelo">Modelo</string>
+    <string name="selecione_a_categoria">Selecione a categoria:</string>
+    <string name="comparar">Comparar</string>
+    <string name="adicionar">Adicionar:</string>
+    <string name="explicacao_processador">O processador é a unidade central de processamento de um computador (CPU), ele funciona como o cérebro do computador, pois interage e faz as conexões necessárias entre todos os programas instalados…</string>
+    <string name="ver_mais">Ver mais</string>
+    <string name="_0">0</string>
+    <string name="mudar_de_nome_email_senha">Mudar de nome ou email</string>
+    <string name="sair_trocar_de_conta">Sair/Trocar de conta</string>
+    <string name="juridico">Jurídico</string>
+    <string name="deletar_conta">Deletar conta</string>
+    <string name="edite_os_dados_que_deseja_alterar">Edite os dados que deseja alterar</string>
+    <string name="mudar">Mudar</string>
+    <string name="nome">nome</string>
+    <string name="digite_uma_nova_senha">Digite uma nova senha</string>
+    <string name="email2">Email</string>
+    <string name="confirme_a_senha_nova">Confirme a senha nova</string>
+    <string name="escreva_o_email_de_sua_conta">Escreva o email de sua conta</string>
+    <string name="escreva_a_sua_senha">Escreva a sua senha</string>
+    <string name="voc_tem_certeza_que_deseja_deletar_sua_conta">Você tem certeza que deseja deletar sua conta?</string>
+    <string name="sim_deletar_minha_conta">SIM, DELETAR MINHA CONTA</string>
+    <string name="ao_deletar_a_conta_voc_n_o_poder_mais_acessar_a_conta_e_perder_todos_os_dados_salvos">Ao deletar a conta, você não poderá mais acessar a conta, e perderá todos os dados salvos.</string>
+    <string name="trabalho_feito_por_n_bruno_marques_n_caio_c_sar_n_leonardo_pucci_n_matheus_de_la_torre_n_matheus_ernesto_dos_santos_n_ricardo_gomes_n_tiago_lessa">Trabalho feito por: \n Bruno Marques \n Caio César \n Leonardo Pucci \n Matheus De La Torre \n Matheus Ernesto Dos Santos \n Ricardo Gomes \n Tiago Lessa</string>
+    <string name="etec_tabo_o_da_serra_centro_paula_souza">ETEC TABOÃO DA SERRA - CENTRO PAULA SOUZA</string>
+    <string name="_2021">2021</string>
+    <string name="favoritar">Favoritar</string>
+    <string name="remover3">remover3</string>
+    <string name="remover1">remover1</string>
+    <string name="remover2">remover2</string>
+    <string name="plus">+</string>
+    <string name="selecionar">Selecionar</string>
+    <string name="selecione_um_tipo_de_dispositivo">Selecione um tipo de dispositivo:</string>
+    <string name="selecione_as_caracter_sitcas_que_lhe_interessam">Selecione as características que lhe interessam</string>
+    <string name="para_jogos_realistas">Para Jogos Realistas</string>
+    <string name="com_muita_bateria">Com Muita Bateria</string>
+    <string name="com_tela_grande">Com Tela Grande</string>
+    <string name="robusto">Robusto</string>
+    <string name="para_desenho">Para Desenhos</string>
+    <string name="com_boa_tela">Com Boa Tela</string>
+    <string name="mais_r_pido">Para Produzir Vídeos</string>
+    <string name="com_bastante_mem_ria">Com Bastante Armazenamento</string>
+    <string name="para_jogos">Para Jogos</string>
+    <string name="para_jogos_simples">Para Jogos Simples</string>
+    <string name="para_trabalhos_de_office">Para Trabalhos De Office</string>
+    <string name="para_jogos_pesados">Para Jogos Pesados</string>
+    <string name="setup_selecione_uma_tag"><![CDATA[Setup: <Selecione uma tag>]]></string>
+    <string name="selecione_as_tags_para_poder_escolher_as_pe_as">Selecione as tags para poder escolher as peças</string>
+    <string name="processador2">Processador:</string>
+    <string name="placa_m_e2">Placa Mãe:</string>
+    <string name="gabinete">Gabinete:</string>
+    <string name="mem_ria_ram2">Memória Ram:</string>
+    <string name="mem_ria_de_armazenamento2">Memória de Armazenamento:</string>
+    <string name="salvar_setup">Salvar Setup</string>
+    <string name="nome_do_setup">Nome do Setup</string>
+    <string name="explicacao_ssd">O SSD (Unidade de Estado Sólido, em português) é um tipo de armazenamento mais rápido e silencioso que os HDD (Unidade de Disco Rígido, em português) convencionais de computadores e notebooks…</string>
+    <string name="explicacao_ram">A memória RAM é um tipo de tecnologia que permite o acesso aos arquivos armazenados no computador. Diferentemente da memória do HD, a RAM não armazena conteúdos permanentemente…</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="explicacao_hd">O HD é a memória do computador propriamente dita. Na configuração de um computador, é o número maior. Por exemplo: se o PC tem 2 GB/320 GB, ele tem a memória RAM…</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="explicacao_fonte">A fonte de energia do computador ou, em inglês, PSU (Power Supply Unit — Unidade de Alimentação de Energia), é responsável por converter a voltagem da energia elétrica, que chega pelas tomadas, em voltagens menores…</string>
+    <string name="explicacao_placamae">Ela é o sistema que une todos os componentes de um computador, permitindo que eles funcionem de forma organizada. Sua peça dispõe de todos os caminhos e redes que permitem a troca de informação entre todas…</string>
+    <string name="escolher_as_pe_as">Escolher as peças</string>
+    <string name="salvar">Salvar</string>
+    <string name="nomeie_o_setup">Nomeie o setup</string>
+    <string name="placa_de_v_deo2">Placa De Vídeo</string>
+    <string name="para_tirar_fotos">Para Tirar Fotos</string>
+    <string name="para_whatsapp">Para Whatsapp</string>
+    <string name="para_terceira_idade">Para Terceira Idade</string>
+    <string name="para_instagram">Para Instagram</string>
+    <string name="para_durar_v_rios_anos">Para Durar Vários Anos</string>
+    <string name="para_apenas_navegar_na_internet">Para Apenas Navegar na Internet</string>
+    <string name="para_fazer_liga_es">Para Fazer Ligações</string>
+    <string name="para_poucos_jogos_simples">Para Poucos Jogos Simples</string>
+    <string name="acompanha_caneta">Acompanha Caneta</string>
+    <string name="explicacao_tela_comparar">Nesta aba, você pode comparar atributos de peças e dispositivos. Função ótima para ver quais características são melhores entre diversas opções. (Melhor para usuários médios/avançados)</string>
+    <string name="compara_o_de_produtos">Comparação de Produtos</string>
+    <string name="para_tarefas_escolares">Para Tarefas Escolares</string>
+    <string name="para_assistir_filmes">Para Assistir Filmes</string>
+    <string name="configura_o_de_computador">Configuração de Computador</string>
+    <string name="recomendamos_esta_configura_o_mas_voc_pode_mudar_as_pe_as_todas_as_pe_as_est_o_cadastradas_neste_aplicativo">Recomendamos esta configuração, mas você pode mudar as peças. Todas as peças estão cadastradas neste aplicativo.</string>
+    <string name="voc_pode_acessar_seus_setups_pelo_menu_2_aba_meus_setups"><![CDATA[Você pode acessar seus setups pelo Menu (2º Aba) > Meus Setups]]></string>
+    <string name="informa_es_t_cnicas_do_produto">Informações técnicas do produto</string>
+    <string name="descri_o">Descrição: (Sem descrição)</string>
+    <string-array name="categorias">
+        <item>Celulares</item>
+        <item>Tablets</item>
+        <item>Gabinetes</item>
+        <item>Memórias de Armazenamento</item>
+        <item>Memórias RAM</item>
+        <item>Placas de vídeo</item>
+        <item>Placas-Mãe</item>
+        <item>Processador</item>
+        <item>Notebooks</item>
+    </string-array>
+    <string-array name="tiposMontagem">
+        <item>Celulares</item>
+        <item>Tablets</item>
+        <item>Computadores</item>
+        <item>Notebooks</item>
+    </string-array>
+    <string-array name="montagemPc">
+        <item>Selecione pelo menos uma tag</item>
+    </string-array>
+</resources>

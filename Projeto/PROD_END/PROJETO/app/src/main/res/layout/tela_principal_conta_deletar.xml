@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txv_Deletar_Conta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="96dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/deletar_conta"
+            android:textColor="@color/tema"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txv_Deletar_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/escreva_o_email_de_sua_conta"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_Deletar_Conta" />
+
+        <TextView
+            android:id="@+id/txv_Deletar_Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/escreva_a_sua_senha"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtv_Deletar_Email" />
+
+        <TextView
+            android:id="@+id/txv_Deletar_Certeza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/voc_tem_certeza_que_deseja_deletar_sua_conta"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtv_Deletar_Senha" />
+
+        <Button
+            android:id="@+id/btn_Deletar_Confirmar_Conta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/sim_deletar_minha_conta"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_Deletar_Certeza" />
+
+        <TextView
+            android:id="@+id/txv_Deletar_Explicacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/ao_deletar_a_conta_voc_n_o_poder_mais_acessar_a_conta_e_perder_todos_os_dados_salvos"
+            android:textAlignment="center"
+            android:textColor="@color/red_alert"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_Deletar_Confirmar_Conta" />
+
+        <EditText
+            android:id="@+id/edtv_Deletar_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_Deletar_Email" />
+
+        <EditText
+            android:id="@+id/edtv_Deletar_Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_Deletar_Senha" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

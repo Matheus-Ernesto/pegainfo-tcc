@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_xml_Pacotes"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/pacotes"
+        android:src="@drawable/icones_principal_menu_pacotes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_Computadores"
+        app:srcCompat="@drawable/icones_principal_menu_pacotes" />
+
+    <ImageView
+        android:id="@+id/img_xml_Favoritos"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/favoritos"
+        android:src="@drawable/icones_principal_menu_favoritos"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_Pacotes"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_Notebooks"
+        app:srcCompat="@drawable/icones_principal_menu_favoritos" />
+
+    <ImageView
+        android:id="@+id/img_xml_Setups"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/favoritos"
+        android:src="@drawable/icones_principal_menu_setups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_Pacotes"
+        app:srcCompat="@drawable/icones_principal_menu_setups" />
+
+    <ImageView
+        android:id="@+id/img_xml_Computadores"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/computadores"
+        android:src="@drawable/icones_principal_menu_computadores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_Celulares"
+        app:srcCompat="@drawable/icones_principal_menu_computadores" />
+
+    <ImageView
+        android:id="@+id/img_xml_Notebooks"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/notebooks"
+        android:src="@drawable/icones_principal_menu_notebooks"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_Computadores"
+        app:layout_constraintTop_toBottomOf="@+id/img_xml_Tablets"
+        app:srcCompat="@drawable/icones_principal_menu_notebooks" />
+
+    <ImageView
+        android:id="@+id/img_xml_Celulares"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/celulares"
+        android:src="@drawable/icones_principal_menu_celulares"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icones_principal_menu_celulares" />
+
+    <ImageView
+        android:id="@+id/img_xml_Tablets"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="64dp"
+        android:contentDescription="@string/tablets"
+        android:src="@drawable/icones_principal_menu_tablets"
+        app:layout_constraintStart_toEndOf="@+id/img_xml_Celulares"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icones_principal_menu_tablets" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

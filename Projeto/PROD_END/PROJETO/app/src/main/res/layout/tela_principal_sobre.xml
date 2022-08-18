@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txv_Sobre_Processador"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_processador"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Sobre_Processador"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_Processador" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_Processador"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:clickable="true"
+        android:contentDescription="@string/_0"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_processador"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_processador" />
+
+    <TextView
+        android:id="@+id/txv_Sobre_Ssd"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_ssd"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgv_Sobre_Processador" />
+
+    <Button
+        android:id="@+id/btn_Sobre_Ssd"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_Ssd" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_Ssd"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_marginTop="222dp"
+        android:clickable="true"
+        android:contentDescription="@string/_1"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_ssd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_ssd" />
+
+    <TextView
+        android:id="@+id/txv_Sobre_Ram"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_ram"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgv_Sobre_Ssd" />
+
+    <Button
+        android:id="@+id/btn_Sobre_Ram"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_Ram" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_Ram"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_marginTop="444dp"
+        android:clickable="true"
+        android:contentDescription="@string/_2"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_ram"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_ram" />
+
+    <TextView
+        android:id="@+id/txv_Sobre_HD"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_hd"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgv_Sobre_Ram" />
+
+    <Button
+        android:id="@+id/btn_Sobre_HD"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_HD" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_HD"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_marginTop="665dp"
+        android:clickable="true"
+        android:contentDescription="@string/_3"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_hd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_hd" />
+
+    <TextView
+        android:id="@+id/txv_Sobre_Fonte"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_fonte"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgv_Sobre_HD" />
+
+    <Button
+        android:id="@+id/btn_Sobre_Fonte"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_Fonte" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_Fonte"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_marginTop="888dp"
+        android:clickable="true"
+        android:contentDescription="@string/_4"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_fonte"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_fonte" />
+
+    <TextView
+        android:id="@+id/txv_Sobre_PlacaMae"
+        android:layout_width="386dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/explicacao_placamae"
+        android:textColor="@color/tema"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgv_Sobre_Fonte" />
+
+    <Button
+        android:id="@+id/btn_Sobre_PlacaMae"
+        android:layout_width="379dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/ver_mais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_Sobre_PlacaMae" />
+
+    <ImageView
+        android:id="@+id/imgv_Sobre_PlacaMae"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_marginTop="1110dp"
+        android:clickable="true"
+        android:contentDescription="@string/_5"
+        android:elevation="2dp"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sobre_placa_mae"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sobre_placa_mae" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

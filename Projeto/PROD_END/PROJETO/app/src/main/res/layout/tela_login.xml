@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txv_xml_Entrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="152dp"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/entrar_na_conta_cadastrar"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txv_xml_FacaLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/fa_a_login_na_sua_conta"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_xml_Entrar" />
+
+        <TextView
+            android:id="@+id/txv_xml_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_xml_FacaLogin" />
+
+        <EditText
+            android:id="@+id/edt_xml_Email"
+            android:layout_width="151dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="128dp"
+            android:ems="10"
+            android:fontFamily="@font/armata"
+            android:hint="@string/exemplo_email_com"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/tema"
+            android:textColorHint="#757575"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_xml_Email" />
+
+        <TextView
+            android:id="@+id/txv_xml_Senha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/senha"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_xml_Email" />
+
+        <EditText
+            android:id="@+id/edt_xml_Senha"
+            android:layout_width="151dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="128dp"
+            android:ems="10"
+            android:fontFamily="@font/armata"
+            android:hint="@string/senha"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_xml_Senha" />
+
+        <Button
+            android:id="@+id/btn_xml_EntrarComConta"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="46dp"
+            android:backgroundTint="@color/btn_bgTint"
+            android:fontFamily="@font/armata"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edt_xml_Senha" />
+
+        <Button
+            android:id="@+id/btn_xml_EntrarSemConta"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/btn_bgTint"
+            android:fontFamily="@font/armata"
+            android:text="@string/continuar_sem_conta"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_xml_EntrarComConta" />
+
+        <Button
+            android:id="@+id/btn_xml_Cadastrar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/btn_bgTint"
+            android:fontFamily="@font/armata"
+            android:text="@string/n_o_tem_uma_conta_cadastre_se"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_xml_EntrarSemConta" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

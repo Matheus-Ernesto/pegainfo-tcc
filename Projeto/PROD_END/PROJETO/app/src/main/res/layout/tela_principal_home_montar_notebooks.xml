@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/scrlv_produtos_Montagem_notebooks"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/scrlLay_produtos_Montagem_notebooks"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txv_selecione_caracteristicas3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="212dp"
+            android:text="@string/selecione_as_caracter_sitcas_que_lhe_interessam"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:chipSpacing="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_selecione_caracteristicas3">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_jogos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_jogos"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_tela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_boa_tela"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_ssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mais_r_pido"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_memoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_bastante_mem_ria"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_escola"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_tarefas_escolares" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_idoso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_terceira_idade" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_notebooks_filmes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_assistir_filmes" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

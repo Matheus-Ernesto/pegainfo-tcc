@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_MudarNomeOutros"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/mudar_de_nome_email_senha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_TrocarConta"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/sair_trocar_de_conta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_MudarNomeOutros" />
+
+    <Button
+        android:id="@+id/btn_Juridico"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/juridico"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_TrocarConta" />
+
+    <Button
+        android:id="@+id/btn_Deletar"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/deletar_conta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Juridico" />
+</androidx.constraintlayout.widget.ConstraintLayout>

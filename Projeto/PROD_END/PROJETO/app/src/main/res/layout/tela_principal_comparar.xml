@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txv_categoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/selecione_a_categoria"
+        android:textColor="@color/tema"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_comparar_explicado" />
+
+    <Spinner
+        android:id="@+id/spin_categorias"
+        android:layout_width="409dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        android:entries="@array/categorias"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_categoria" />
+
+    <Button
+        android:id="@+id/btn_Comparar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/comparar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spin_categorias" />
+
+    <TextView
+        android:id="@+id/txv_comparar_explicado"
+        android:layout_width="324dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/explicacao_tela_comparar"
+        android:textColor="@color/tema"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txv_comparar_titulo_explicando" />
+
+    <TextView
+        android:id="@+id/txv_comparar_titulo_explicando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/armata"
+        android:text="@string/compara_o_de_produtos"
+        android:textColor="@color/tema"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/spin_montar_processador"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_processador_montar" />
+
+        <Spinner
+            android:id="@+id/spin_montar_memoria"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_memoria_montar" />
+
+        <Spinner
+            android:id="@+id/spin_montar_ram"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_ram_montar" />
+
+        <Spinner
+            android:id="@+id/spin_montar_placa_mae"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_placa_mae" />
+
+        <Spinner
+            android:id="@+id/spin_montar_gabinete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_gabinete_montar" />
+
+        <Spinner
+            android:id="@+id/spin_montar_placa_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="1dp"
+            android:background="@color/white"
+            android:entries="@array/montagemPc"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_placa_video_montar" />
+
+        <TextView
+            android:id="@+id/txv_processador_montar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/processador2"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/txv_placa_mae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/placa_m_e"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_gabinete" />
+
+        <TextView
+            android:id="@+id/txv_gabinete_montar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/gabinete"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_processador" />
+
+        <TextView
+            android:id="@+id/txv_ram_montar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/mem_ria_ram2"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_placa_mae" />
+
+        <TextView
+            android:id="@+id/txv_memoria_montar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/mem_ria_de_armazenamento2"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_ram" />
+
+        <TextView
+            android:id="@+id/txv_placa_video_montar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/placa_de_v_deo2"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_memoria" />
+
+        <Button
+            android:id="@+id/btn_salvar_montagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/salvar"
+            app:layout_constraintStart_toEndOf="@+id/edtv_nome_setup"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_placa_video" />
+
+        <EditText
+            android:id="@+id/edtv_nome_setup"
+            android:layout_width="283dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nomeie_o_setup"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spin_montar_placa_video" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="371dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="81dp"
+            android:text="@string/recomendamos_esta_configura_o_mas_voc_pode_mudar_as_pe_as_todas_as_pe_as_est_o_cadastradas_neste_aplicativo"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/armata"
+            android:text="@string/configura_o_de_computador"
+            android:textColor="@color/tema"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

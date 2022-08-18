@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txv_selecione_pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/selecione_as_caracter_sitcas_que_lhe_interessam"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipGroup"
+            android:layout_width="378dp"
+            android:layout_height="292dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:chipSpacing="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_selecione_pc">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_jogos_simples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_jogos_simples"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_jogos_pesados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_jogos_pesados"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_office"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_trabalhos_de_office"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_idoso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_terceira_idade" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_duradouro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_durar_v_rios_anos"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_ssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mais_r_pido"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_memoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_bastante_mem_ria"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_desktops_internet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_apenas_navegar_na_internet" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/btn_pc_montar_pecas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="36dp"
+            android:text="Ver Configuração"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/chipGroup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

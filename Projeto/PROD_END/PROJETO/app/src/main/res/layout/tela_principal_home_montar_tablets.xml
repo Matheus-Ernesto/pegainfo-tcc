@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/scrlv_produtos_Montagem_tablets"
+            android:layout_width="wrap_content"
+            android:layout_height="168dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/scrlLay_produtos_Montagem_tablets"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txv_selecione_caracteristicas2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="179dp"
+            android:text="@string/selecione_as_caracter_sitcas_que_lhe_interessam"
+            android:textColor="@color/tema"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="32dp"
+            android:theme="@style/Theme.MaterialComponents.Light"
+            app:chipSpacing="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txv_selecione_caracteristicas2">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_desenho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_desenho"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_ligacoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_fazer_liga_es"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_bateria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/com_muita_bateria"
+                android:theme="@style/Theme.MaterialComponents.Light" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_idoso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_terceira_idade" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_jogos_simples"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_poucos_jogos_simples" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_fotos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_tirar_fotos" />
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_tablets_jogos_realistas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_jogos_pesados" />
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
